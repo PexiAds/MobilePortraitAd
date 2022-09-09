@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://static.pexi.nl/general/slick.css">
+	<script src="https://static.pexi.nl/pexi.js"></script>
+</head>
+
+<body>
+
+	<div id="stage">
+		<div class="slider" onclick="pexi.click()">
+			<img src="large_image_1.jpg" class="slide slide1">
+			<img src="large_image_2.jpg" class="slide slide2">
+			<img src="large_image_3.jpg" class="slide slide3">
+			<img src="large_image_4.jpg" class="slide slide4">
+		</div>
+		<div class="thumbs">
+			<div class="thumb active" id="nav_item1">
+				<img src="nav_image_1.jpg" alt="navigate to image 1">
+			</div>
+			<div class="thumb" id="nav_item2">
+				<img src="nav_image_2.jpg" alt="navigate to image 2">
+			</div>
+			<div class="thumb" id="nav_item3">
+				<img src="nav_image_3.jpg" alt="navigate to image 3">
+			</div>
+			<div class="thumb" id="nav_item4">
+				<img src="nav_image_4.jpg" alt="navigate to image 4">
+			</div>
+		</div>
+		<div class="overlay"></div>
+	</div>
+
+	<!-- JavaScript bestanden -->
+	<script src="https://static.pexi.nl/general/jquery.min.js"></script>
+	<script src="https://static.pexi.nl/general/tweenmax_2.1.2.min.js"></script>
+	<script type="text/javascript" src="https://static.pexi.nl/general/slick.min.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>
