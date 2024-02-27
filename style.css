@@ -20,7 +20,7 @@ body {
 #stage {
     width: 100%;
 	background: #f7f7f7;
-	position: absolute;
+	position: relative;
 	cursor: pointer;
 	overflow: hidden;
 	transform-origin: 0 0;
